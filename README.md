@@ -10,7 +10,7 @@ x_{i+1}=x_{i}+\Delta x
 y_{i+1}=y_{i}+f'(x_i)\Delta x
 $$
 
-Where $$Delta x$$ is some small interval.
+Where $$\Delta x$$ is some small interval.
 
 
 
