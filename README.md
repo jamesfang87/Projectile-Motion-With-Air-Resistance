@@ -1,4 +1,7 @@
-# Projectile-Motion-With-Air-Resistance
+# Projectile Motion With Air Resistance
+This project was created to simulate the path of a tennis ball launched obliquely by a medium-sized catapult.
+
+# Introduction
 
 Without air resistance, calculating the range of an obliquely launched projectile is simple with knowledge of the launch velocity and angle.  However, equations for an obliquely launched projectile while taking into account air resistance is much more complicated and can not be solved analytically.  This program uses Euler's method of approxiamation in order to numerically solve these equations.
 
@@ -28,10 +31,17 @@ In physics, if f(x) is position, f'(x) is velocity and f''(x) is acceleration.
 
 
 # Background
-Air resistance is determined by the the speed of the object and always opposite to the direction of motion.  There are 2 different "types" of air resistance each having a different relationship to the speed of the object.  The times that these types of drag occur is determined by the Reynold's number which is dependment of the speed, size, and viscosity of the air.  The most typical type of air resistance is Newtonian drag which occurs at Reynold's numbers of 1000+.
+Air resistance is determined by the the speed of the object and always opposite to the direction of motion.  There are 2 different "types" of air resistance each having a different relationship to the speed of the object.  The times that these types of drag occur is determined by the Reynold's number which is dependment of the speed, size, and viscosity of the air.  The most typical type of air resistance is Newtonian drag which occurs at Reynold's numbers of 1000+.  In the case of a tennis ball, drag will typically be Newtonian.
 
 # Force analysis
-Note that when ignoring air resistance, ax=0 and ay=g.  In the situation detailed here, the force of drag is proportional to the square of the tennis ball’s velocity and always acts in the opposite direction to the velocity.  We can denote this as D=-Cv2 or D=-Cvv ←the last v is a vector I just can’t type on Google Docs.  C is found by multiplying the density of the air, the surface area of the ball in contact with the air (what it looks like from the front), and a constant called drag coefficient which comes from the shape of the object (for a ball, it is around 0.47) and dividing by 2.   
+In the situation detailed here, the force of drag is proportional to the square of the tennis ball’s velocity and always acts in the opposite direction to the velocity.  We can denote this as:
+$$
+D=Cv^{2}=C\hat{v}\left\| v \right\|
+$$
+
+
+C, the coefficient of drag, is found by multiplying the density of the air, the surface area of the ball in contact with the air (what it looks like from the front), and a constant called drag coefficient which comes from the shape of the object (for a ball, it is around 0.47) and dividing by 2:
+
 
 We can decompose this into x and y components: Dx=-Cvvx and Dy=-Cvvy.  With this, net force equations for x and y look like this: 
 
