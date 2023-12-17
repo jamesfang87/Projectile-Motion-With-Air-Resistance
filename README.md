@@ -5,9 +5,9 @@ Without air resistance, calculating the range of an obliquely launched projectil
 # Euler's Method of Approximation
 When we have a function f(x), the tangent line at that a point will touch the function.  This also means that we can use the tangent line to approxiamate values of f(x) close to the point that the two functions touch.  We can do this multiple times when given initial values to a function.  In one dimension, Euler's method is represented like this:
 
-&&
+$$
 x_{i+1}=x_{i}+\Delta x
-&&
+$$
 
 
 
