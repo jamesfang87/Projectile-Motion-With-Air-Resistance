@@ -27,6 +27,9 @@ $$
 In physics, if f(x) is position, f'(x) is velocity and f''(x) is acceleration.
 
 
+# Background
+Air resistance is determined by the the speed of the object and always opposite to the direction of motion.  There are 2 different "types" of air resistance each having a different relationship to the speed of the object.  The times that these types of drag occur is determined by the Reynold's number which is dependment of the speed, size, and viscosity of the air.  The most typical type of air resistance is Newtonian drag which occurs at Reynold's numbers of 1000+.
+
 # Force analysis
 Note that when ignoring air resistance, ax=0 and ay=g.  In the situation detailed here, the force of drag is proportional to the square of the tennis ball’s velocity and always acts in the opposite direction to the velocity.  We can denote this as D=-Cv2 or D=-Cvv ←the last v is a vector I just can’t type on Google Docs.  C is found by multiplying the density of the air, the surface area of the ball in contact with the air (what it looks like from the front), and a constant called drag coefficient which comes from the shape of the object (for a ball, it is around 0.47) and dividing by 2.   
 
