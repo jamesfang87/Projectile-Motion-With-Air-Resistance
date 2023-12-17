@@ -11,6 +11,7 @@ y_{i+1}=y_{i}+f'(x_i)\Delta x
 $$
 
 When we have both x and y coordinates to the object's motion, we can write them as "functions" of time:
+
 $$
 t_{i+1}=t_{i} + \Delta t
 $$
@@ -18,6 +19,8 @@ $$
 $$
 x_{i+1}=x_{i}+x'(t_i)\Delta t
 $$
+
+
 $$
 y_{i+1}=y_{i}+y'(t_i)\Delta t
 $$
