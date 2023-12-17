@@ -20,10 +20,11 @@ $$
 x_{i+1}=x_{i}+x'(t_i)\Delta t
 $$
 
-
 $$
 y_{i+1}=y_{i}+y'(t_i)\Delta t
 $$
+
+In physics, if f(x) is position, f'(x) is velocity and f''(x) is acceleration.
 
 
 # Force analysis
