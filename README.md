@@ -21,8 +21,8 @@ C, the coefficient of drag, is found by multiplying the density of the air, the 
 By decomposing the drag force into x and y components, net force equations for x and y look like this: 
 ```math
 F_{x}=D_{x}=-Cvv_{x}
-```math
 ```
+```math
 F_{y}=F_{g}+D_{y}=mg-Cvv_{y}
 ```
 
