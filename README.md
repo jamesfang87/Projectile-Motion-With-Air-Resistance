@@ -21,12 +21,16 @@ C, the coefficient of drag, is found by multiplying the density of the air, the 
 By decomposing the drag force into x and y components, net force equations for x and y look like this: 
 ```math
 F_{x}=D_{x}=-Cvv_{x}
+```math
+```
 F_{y}=F_{g}+D_{y}=mg-Cvv_{y}
 ```
 
 We can simply divide by mass to get the acceleration of the object:  
 ```math
 a_{x}=\frac{Cvv_{x}}{m}
+```
+```math
 a_{y}=g-\frac{Cvv_{y}}{m}
 ```
 
@@ -35,8 +39,14 @@ a_{y}=g-\frac{Cvv_{y}}{m}
 While these acceleration vectors are constantly changing, if we use a small time interval, t, we can treat acceleration as constant and use the constant acceleration kinematic equations to calculate the aforementioned values at a later time.  We can use the average velocity in the time interval t for another kinematic equation: 
 ```math
 x=\frac{(v_{i}+v_{f})t}{2}
+```
+```math
 x=\frac{(v_{i}+v_{i}+at)t}{2}
+```
+```math
 x=\frac{(2v_{i}+at)t}{2}
+```
+```math
 x=(vi+at/2)t
 ```
 
