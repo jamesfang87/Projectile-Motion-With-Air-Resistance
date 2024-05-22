@@ -11,34 +11,32 @@ Air resistance is determined by the the speed of the object and always opposite 
 
 # Force analysis
 In the situation detailed here, the force of drag is proportional to the square of the tennis ball’s velocity and always acts in the opposite direction to the velocity.  We can denote this as:
-$$ D=Cv^{2}=C\hat{v}\left\| v \right\| $$
+```math
+D=Cv^{2}=C\hat{v}\left\| v \right\|
+```
 
 C, the coefficient of drag, is found by multiplying the density of the air, the surface area of the ball in contact with the air (what it looks like from the front), and a constant called drag coefficient which comes from the shape of the object (for a ball, it is around 0.47) and dividing by 2.
 
 
 By decomposing the drag force into x and y components, net force equations for x and y look like this: 
-$$
+```math
 F_{x}=D_{x}=-Cvv_{x}
-$$
-$$
 F_{y}=F_{g}+D_{y}=mg-Cvv_{y}
-$$
+```
 
 We can simply divide by mass to get the acceleration of the object:  
-$$
+```math
 a_{x}=\frac{Cvv_{x}}{m}
-$$
-$$
 a_{y}=g-\frac{Cvv_{y}}{m}
-$$
+```
 
 # Kinematics
 
 While these acceleration vectors are constantly changing, if we use a small time interval, t, we can treat acceleration as constant and use the constant acceleration kinematic equations to calculate the aforementioned values at a later time.  We can use the average velocity in the time interval t for another kinematic equation: 
-$$
+```math
 x=\frac{(v_{i}+v_{f})t}{2}
 x=\frac{(v_{i}+v_{i}+at)t}{2}
 x=\frac{(2v_{i}+at)t}{2}
 x=(vi+at/2)t
-$$
+```
 
