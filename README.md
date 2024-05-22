@@ -47,6 +47,6 @@ x=\frac{(v_{i}+v_{i}+at)t}{2}
 x=\frac{(2v_{i}+at)t}{2}
 ```
 ```math
-x=(vi+at/2)t
+x=(v_{i}t+1/2*at^2)
 ```
 
