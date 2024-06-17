@@ -12,7 +12,7 @@ Air resistance is determined by the the speed of the object and always opposite 
 # Force Analysis
 In the situation detailed here, the force of drag is proportional to the square of the tennis ball’s velocity and always acts in the opposite direction to the velocity.  We can denote this as:
 ```math
-D=-Cv^{2}=-C\hat{v}\left\| v \right\|
+D=-Cv^{2}
 ```
 
 C, the coefficient of drag, is found by multiplying the density of the air, the surface area of the ball in contact with the air (what it looks like from the front), and a constant called drag coefficient which comes from the shape of the object (for a ball, it is around 0.47) and dividing by 2.
