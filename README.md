@@ -3,11 +3,11 @@ This project was created to simulate the path of a tennis ball launched obliquel
 
 # Introduction
 
-Without air resistance, calculating the range of an obliquely launched projectile is simple with knowledge of the launch velocity and angle.  However, equations for an obliquely launched projectile while taking into account air resistance is much more complicated and can not be solved analytically.  This program uses a numerical solution to "solve" these equations.
+Without air resistance, calculating the range of an obliquely launched projectile is simple with knowledge of the launch velocity and angle.  However, equations for an obliquely launched projectile while taking into account air resistance is much more complicated and can not be solved analytically.  This program uses a numerical solution to solve these equations.
 
 
 # Background
-Air resistance is determined by the the speed of the object and always opposite to the direction of motion.  There are 2 different "types" of air resistance each having a different relationship to the speed of the object.  The times that these types of drag occur is determined by the Reynold's number which is dependment of the speed, size, and viscosity of the air.  The most typical type of air resistance is Newtonian drag which occurs at Reynold's numbers of 1000+.  In the case of a tennis ball, drag will typically be Newtonian.
+Air resistance is determined by the the speed of the object and always opposite to the direction of motion.  There are 2 different types of air resistance each having a different relationship to the speed of the object.  The times that these types of drag occur is determined by the Reynold's number which is dependment of the speed, size, and viscosity of the air.  The most typical type of air resistance is Newtonian drag which occurs at Reynold's numbers of 1000+.  In the case of a tennis ball, drag will typically be Newtonian.
 
 # Force Analysis
 In the situation detailed here, the force of drag is proportional to the square of the tennis ball’s velocity and always acts in the opposite direction to the velocity.  We can denote this as:
