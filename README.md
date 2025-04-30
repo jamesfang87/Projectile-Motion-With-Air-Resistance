@@ -1,5 +1,5 @@
 # Projectile Motion with Air Resistance
-This project was created to simulate the path of a tennis ball launched obliquely by a medium-sized catapult.
+The 2022-2023 game for VEX Robotics, Spin Up, involved the projectile motion of disks across a 12' x 12'field. This project was initially created to simulate this process to reduce the amount of time spent tuning autonomous programs. Then, it was repurposed for the tasks of simulating the path of a tennis ball launched obliquely by a medium-sized catapult.
 
 # Introduction
 
